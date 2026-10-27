@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>供配电技术与设备AI助教⚡</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        html,body{height:100%;}
+    </style>
+</head>
+<body>
+<script src="https://lf-cdn.coze.cn/obj/unpkg/flow-platform/chat-app-sdk/1.2.0-beta.19/libs/cn/index.js"></script>
+<script>
+new CozeWebSDK.WebChatClient({
+  config: {
+    bot_id: 7701281028975378495',
+  },
+  componentProps: {
+    title: '供配电技术与设备AI助教⚡',
+    layout: 'full'
+  },
+  ui:{
+    asstBtn:{
+      isNeed:false
+    }
+  },
+  auth: {
+    type: 'token',
+    token: 'pat_VTcgiCpApY41zOMPpZdq1TE2pMecHBhZmEOpmhIVIhJDiMFrYkxncq1QwoS917t0',
+    onRefreshToken: function () {
+      return 'pat_xxxx'
+    }
+  }
+});
+</script>
+</body>
+</html>
